@@ -11,9 +11,11 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    color: white;
 }
 
 a:hover {
+    color: rgb(243, 151, 108);
     text-decoration: none;
     cursor: pointer;
 }
@@ -283,10 +285,6 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-2-services p {
-    font-size: 11px;
-}
-
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -538,7 +536,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -647,9 +645,8 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
-    font-family: "helvetica";
+.btn {
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #575757!important;
 }
@@ -677,7 +674,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -685,9 +682,9 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
+h1 {
+    font-size: 36px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .cta-hero {
@@ -705,12 +702,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 28px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 24px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -753,7 +750,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(35, 31, 32, 0.7);
+    background-color: rgba(35, 31, 32, 0.9);
     padding: 40px 40px 40px 40px;
 }
 
@@ -781,16 +778,16 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: white !important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #7E4A30 !important;
     color: #FFFFFF!important;
 }
 
